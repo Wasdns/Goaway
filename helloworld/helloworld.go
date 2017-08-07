@@ -1,3 +1,4 @@
+// This package records my first go lib: learngo
 // My First Go Program: Hello World
 package learngo
 
