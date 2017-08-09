@@ -1,5 +1,5 @@
 // This package records my first go lib: learngo
-// learngoliba.go: enabling function sum and minus
+// learngo_calculate_func.go: enabling function sum and minus
 package learngo
 
 func Sum(a int, b int) int {
