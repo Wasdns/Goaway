@@ -32,4 +32,14 @@ func main() {
 	// print goos,
 	// in file example/goos.go
 	example.PrintOperatingSystem()
+
+	// variable swap
+	swapTestA, swapTestB := learngo.Sum(1, 3), learngo.Minus(1, 3)
+	fmt.Printf("Before swaping: swapTestA=%d, swapTestB=%d\n", swapTestA, swapTestB)
+	swapTestA, swapTestB = swapTestB, swapTestA
+	fmt.Printf("After swaping: swapTestA=%d, swapTestB=%d\n", swapTestA, swapTestB)
+
+	// print "terrible" copyright @Wasdns,
+	// in file learngo/init.go
+	learngo.PrintCopyRight(learngo.CopyRight)
 }
