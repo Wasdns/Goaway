@@ -19,7 +19,7 @@ func main() {
 	// Get "fatal error: all goroutines are asleep - deadlock!" if
 	// msgs <- msg
 	select {
-	case msgs <- msg:
+	case msgs <- msg: // this program would not enter to this case
 		fmt.Println("Hawaii sends one gift to ...")
 	default:
 		fmt.Println("No, you must send one gift to him, otherwise he would be angry!")
